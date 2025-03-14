@@ -55,3 +55,40 @@ button:hover {
   transition: transform 0.3s ease
 }
 
+.ContainerTriangles {
+  position: absolute;
+  bottom: 0;  
+}
+
+.TriangleRed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 150x;
+  border-right: 500px solid transparent; 
+  border-bottom: 150px solid #2C3052; 
+}
+
+.TriangleBlue {
+  position: fixed;
+  bottom: -20px; 
+  left: 0; 
+  width: 900px; 
+  height: 100px;
+  background-color: #B51E41;
+  transform: rotate(17deg);
+  transform-origin: top left; 
+}
+
+.TriangleSaumon {
+  position: fixed;
+  bottom: 150px; 
+  left: 0; 
+  width: 900px; 
+  height: 50px;
+  background-color: #F4C39A;
+  transform: rotate(17deg);
+  transform-origin: top left; 
+}
+
