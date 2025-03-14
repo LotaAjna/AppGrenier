@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    height: 100vh;
+  }
+
+.MenuGauchePeugeot {
+    width: 200px; 
+    height: 100%; 
+    background-color: #E9E7E1; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: start; 
+    position: absolute;
+    bottom: 0; 
+    overflow: hidden;
+  }
+
+  .Logo:hover{
+    opacity: 0.5;
+  }
+
+  .TriangleBlue {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 150x;
+    border-right: 500px solid transparent; 
+    border-bottom: 150px solid #1D4ABB; 
+  }
+  
+  .TriangleDarkBlue {
+    position: fixed;
+    bottom: -20px; 
+    left: 0; 
+    width: 900px; 
+    height: 100px;
+    background-color: #313151;
+    transform: rotate(17deg);
+    transform-origin: top left; 
+  }
+  
+  .TriangleYellow {
+    position: fixed;
+    bottom: 150px; 
+    left: 0; 
+    width: 900px; 
+    height: 50px;
+    background-color: #F6BA14;
+    transform: rotate(17deg);
+    transform-origin: top left; 
+  }
